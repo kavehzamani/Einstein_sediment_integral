@@ -1,4 +1,4 @@
-%% This function calculates first and second Einstein integrals
+%% This function calculates first and second Einstein integrals (Einstein, 1950)
 % Based on the method suggestion by Rajesh Srivastava (Abad et al., 2006)
 % Discussion in Journal of Hydraulic Engineering-ASCE.
 % For details please see Appendix 1-5 of
@@ -14,6 +14,8 @@
 % Output
 % J1: First Einstein integral
 % J2: Second Einstein integral
+% Es is E* in Srivastava's derivation
+
 
 function [J1,J2]=srivastava(Z,E)
 

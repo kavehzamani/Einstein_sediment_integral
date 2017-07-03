@@ -1,5 +1,5 @@
-%% This function calculates first and second Einstein integrals
-% Based on the method suggestion by Tatsuaki Nakato (Nakato, 1984)
+%% This function calculates first and second Einstein integrals (Einstein, 1950)
+% Based on the method suggested by Tatsuaki Nakato (Nakato, 1984)
 % Journal of Hydraulic Engineering-ASCE.
 % For details please see Appendix 1-1 of
 % Kaveh Zamani, Fabian Bombardelli and Babak Kamrani-Moghaddam (2016)

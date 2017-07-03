@@ -1,5 +1,5 @@
-%% This function calculates first and second Einstein integrals
-% Based on composite Simpson method (as known as cubic Simpson in some
+%% This function calculates first and second Einstein integrals (Einstein, 1950)
+% Based on the composite Simpson method (as known as cubic Simpson in some
 % references)
 % Appendix 2 of:
 % Kaveh Zamani, Fabian Bombardelli and Babak Kamrani-Moghaddam (2016)
@@ -9,7 +9,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Definition of variables:
 % Input
-% Z: Rouse dimensionless number
+% rouse: Rouse dimensionless number
 % E: Relative-bedload layer thickness
 % n_step: number of nodes for numerical computation of the integral 
 % Output

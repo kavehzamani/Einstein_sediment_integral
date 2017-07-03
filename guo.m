@@ -1,4 +1,4 @@
-%% This function calculates first and second Einstein integrals
+%% This function calculates first and second Einstein integrals (Einstein, 1950)
 % Based on the method developed by
 % Junke Guo and Pierre Y. Julien (2004); Journal of Hydraulic Engineering ASCE); for details look at the
 % Appendix 1-2 of:
@@ -12,7 +12,7 @@
 % Z: Rouse dimensionless number
 % E: Relative-bedload layer thickness
 % num_term: Number of terms in the partial sum of second infinite sum of
-%           Equation (8) of Appendix 1.2 Zamani et al. (2016)
+%           Equation (8) of Appendix 1.2 of Zamani et al. (2016)
 % Output
 % J1: First Einstein integral
 % J2: Second Einstein integral
