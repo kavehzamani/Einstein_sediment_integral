@@ -1,10 +1,10 @@
-%% This function calculates first and second Einstein integrals (Einstein, 1950)
-% Based on the method suggested by Roland and Zanke (Abad et al., 2006)
-% Discussion in Journal of Hydraulic Engineering-ASCE.
+%% This function calculates first and second Einstein integrals
+% Based on the method suggestion by Roland and Zanke (Abad et al., 2006)
+% Discussionin Journal of Hydraulic Engineering-ASCE.
 % For details please see Appendix 1-6 of
 % Kaveh Zamani, Fabian Bombardelli and Babak Kamrani-Moghaddam (2016)
 % "A comparison of current methods for the evaluation of Einstein’s integrals"
-% Technical note in ASCE Journal of Hydraulic Engineering
+% Technical note in ASCE Journal of Hydraulic Engineering, Vol. 143, Issue 4 
 %% Implemented by Kaveh Zamani at UC Davis, Department of Civil and Environmental Engg.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Definition of variables:
