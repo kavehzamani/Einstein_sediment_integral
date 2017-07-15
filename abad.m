@@ -1,10 +1,10 @@
-%% This function calculates first and second Einstein integrals (Einstein, 1950)
+%% This function calculates first and second Einstein integrals
 % Based on the regression method developed by Jorge D. Abad and Marcelo H. Garcia (Abad et
-% al. 2006; Journal of Hydraulic Engineering ASCE); for details look at the
+% al., 2006; Journal of Hydraulic Engineering ASCE); for details look at the
 % Appendix 1-3 of:
 % Kaveh Zamani, Fabian Bombardelli and Babak Kamrani-Moghaddam (2016)
 % "A comparison of current methods for the evaluation of Einstein’s integrals"
-% Technical note in ASCE Journal of Hydraulic Engineering
+% Technical note in ASCE Journal of Hydraulic Engineering, Vol. 143, Issue 4 
 %% Implemented by Kaveh Zamani at UC Davis, Department of Civil and Environmental Engg.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Definition of variables:
