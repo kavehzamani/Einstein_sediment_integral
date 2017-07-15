@@ -1,10 +1,10 @@
-%% This function calculates first and second Einstein integrals (Einstein, 1950)
-% Based on the method developed by
-% Junke Guo and Pierre Y. Julien (2004); Journal of Hydraulic Engineering ASCE); for details look at the
+%% This function calculates first and second Einstein integrals
+% Based on the method developed by 
+% Junke Guo and Pierre Y. Julien (2004); Journal of Hydraulic Engineering ASCE; for details look at the
 % Appendix 1-2 of:
 % Kaveh Zamani, Fabian Bombardelli and Babak Kamrani-Moghaddam (2016)
 % "A comparison of current methods for the evaluation of Einstein’s integrals"
-% Technical note in ASCE Journal of Hydraulic Engineering
+% Technical note in ASCE Journal of Hydraulic Engineering, Vol. 143, Issue 4 
 %% Implemented by Kaveh Zamani at UC Davis, Department of Civil and Environmental Engg.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Definition of variables:
@@ -12,7 +12,7 @@
 % Z: Rouse dimensionless number
 % E: Relative-bedload layer thickness
 % num_term: Number of terms in the partial sum of second infinite sum of
-%           Equation (8) of Appendix 1.2 of Zamani et al. (2016)
+%           Equation (8) of Appendix 1.2 Zamani et al. (2016)
 % Output
 % J1: First Einstein integral
 % J2: Second Einstein integral
