@@ -3,7 +3,7 @@
 % Discussionin Journal of Hydraulic Engineering-ASCE.
 % For details please see Appendix 1-5 of
 % Kaveh Zamani, Fabian Bombardelli and Babak Kamrani-Moghaddam (2016)
-% "A comparison of current methods for the evaluation of Einstein’s integrals"
+% "A comparison of current methods for the evaluation of Einsteinâ€™s integrals"
 % Technical note in ASCE Journal of Hydraulic Engineering Vol. 143, Issue 4 
 %% Implemented by Kaveh Zamani at UC Davis, Department of Civil and Environmental Engg.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -27,7 +27,7 @@ if (abs(Z-1)<0.01)
     
     j2term1 = -(log(Es)^2)/2;
     j2term2 = -1.903*(Es^(2-Z)*(1-(2-Z)*log(Es))-1)/(2-Z)^2;
-    j2term3 = 2.022*(E^(2.6-Z)*(1-(2.6-Z)*log(Es))-1)/(2.6-Z)^2;
+    j2term3 = 2.022*(Es^(2.6-Z)*(1-(2.6-Z)*log(Es))-1)/(2.6-Z)^2;
     j2term4 = -0.2914/(1.652+Z);
     
 elseif (abs(Z-2)<0.01)
@@ -39,7 +39,7 @@ elseif (abs(Z-2)<0.01)
     
     j2term1 = (Es^(1-Z)*(1-(1-Z)*log(Es))-1)/(1-Z)^2;
     j2term2 = 1.903*(log(Es)^2)/2;
-    j2term3 = 2.022*(E^(2.6-Z)*(1-(2.6-Z)*log(Es))-1)/(2.6-Z)^2;
+    j2term3 = 2.022*(Es^(2.6-Z)*(1-(2.6-Z)*log(Es))-1)/(2.6-Z)^2;
     j2term4 = -0.2914/(1.652+Z);
     
 elseif (abs(Z-2.6)<0.01)
@@ -63,7 +63,7 @@ else
     
     j2term1 = ((Es^(1-Z))*(1-(1-Z)*log(Es))-1)/(1-Z)^2;
     j2term2 = -1.903*((Es^(2-Z))*(1-(2-Z)*log(Es))-1)/(2-Z)^2;
-    j2term3 = 2.022*((E^(2.6-Z))*(1-(2.6-Z)*log(Es))-1)/(2.6-Z)^2;
+    j2term3 = 2.022*((Es^(2.6-Z))*(1-(2.6-Z)*log(Es))-1)/(2.6-Z)^2;
     j2term4 = -0.2914/(1.652+Z);
     
 end
